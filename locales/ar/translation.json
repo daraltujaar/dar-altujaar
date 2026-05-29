@@ -1,0 +1,174 @@
+{
+  "site": {
+    "name": "دار التجار",
+    "slogan": "دليل تجار الجزائر",
+    "description": "منصة دار التجار - دليل شامل لجميع التجار في الجزائر"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "traders": "التجار",
+    "categories": "التصنيفات",
+    "register": "تسجيل تاجر",
+    "login": "دخول المشتركين",
+    "subscriptions": "الاشتراكات",
+    "nfc": "NFC",
+    "map": "الخريطة",
+    "about": "عن المنصة",
+    "myStore": "متجري",
+    "admin": "لوحة التحكم"
+  },
+  "home": {
+    "heroTitle": "اكتشف كل المتاجر في الجزائر",
+    "heroSubtitle": "منصة شاملة تضم كل التجار والخدمات",
+    "searchPlaceholder": "ابحث عن متجر، تاجر، أو خدمة...",
+    "ctaTraders": "تصفح التجار",
+    "ctaRegister": "سجل متجرك مجاناً",
+    "featuresTitle": "لماذا دار التجار؟",
+    "stats": {
+      "traders": "تاجر مسجل",
+      "wilayas": "ولاية",
+      "categories": "تصنيف",
+      "users": "مشترك"
+    }
+  },
+  "traders": {
+    "title": "قائمة التجار",
+    "search": "بحث",
+    "filterWilaya": "الولاية",
+    "filterCategory": "التصنيف",
+    "allWilayas": "كل الولايات",
+    "allCategories": "كل التصنيفات",
+    "sort": "الترتيب",
+    "sortNewest": "الأحدث",
+    "sortPopular": "الأكثر زيارة",
+    "sortRated": "الأعلى تقييماً",
+    "noResults": "لا توجد نتائج",
+    "contactProtected": "معلومات التواصل للمشتركين فقط",
+    "subscribeNow": "اشترك الآن",
+    "socialProtected": "صفحات التواصل محمية",
+    "subscribeToView": "اشترك لرؤية فيسبوك، إنستغرام، تيك توك وتليغرام"
+  },
+  "trader": {
+    "detailTitle": "تفاصيل المتجر",
+    "info": "معلومات المتجر",
+    "contact": "معلومات التواصل",
+    "social": "صفحات التواصل",
+    "reviews": "التقييمات",
+    "addReview": "أضف تقييم",
+    "writeReview": "اكتب تقييمك...",
+    "submit": "إرسال",
+    "protected": "المحتوى محمي",
+    "loginToView": "سجل دخولك كمشترك لرؤية المعلومات",
+    "related": "متاجر مشابهة",
+    "whatsapp": "واتساب",
+    "phone": "الهاتف",
+    "location": "الموقع",
+    "category": "التصنيف",
+    "subcategory": "التصنيف الفرعي"
+  },
+  "register": {
+    "title": "تسجيل تاجر جديد",
+    "subtitle": "التسجيل مجاني بالكامل! املأ معلومات متجرك",
+    "storeName": "اسم المتجر",
+    "ownerName": "اسم المالك",
+    "phone": "الهاتف",
+    "phone2": "هاتف إضافي",
+    "whatsapp": "واتساب",
+    "address": "العنوان",
+    "wilaya": "الولاية",
+    "category": "التصنيف الرئيسي",
+    "subcategory": "التصنيف الفرعي",
+    "selectCategory": "اختر التصنيف",
+    "selectSubcategory": "اختر الفرعي",
+    "description": "وصف المتجر",
+    "facebook": "فيسبوك",
+    "instagram": "إنستغرام",
+    "tiktok": "تيك توك",
+    "telegram": "تليغرام",
+    "mapsLink": "رابط الخريطة",
+    "logo": "شعار المتجر",
+    "storeImages": "صور المتجر",
+    "submit": "تسجيل المتجر",
+    "success": "تم التسجيل بنجاح!",
+    "successMsg": "تم حفظ معلومات متجرك. سنتواصل معك عبر الواتساب لتأكيد الإضافة.",
+    "required": "مطلوب"
+  },
+  "subscriptions": {
+    "title": "اختر خطتك",
+    "subtitle": "ادخل منصة دار التجار وتواصل مع كل التجار",
+    "freeForTraders": "تسجيل المتاجر في المنصة مجاني بالكامل",
+    "monthly": "شهر واحد",
+    "bimestriel": "شهرين",
+    "trimestriel": "3 أشهر",
+    "lifetime": "مدى الحياة",
+    "monthlyPrice": "1,500 دج",
+    "bimestrielPrice": "2,500 دج",
+    "trimestrielPrice": "3,500 دج",
+    "lifetimePrice": "10,000 دج",
+    "subscribe": "اشترك",
+    "paymentVia": "الدفع عبر بريدي موب أو البريد الجاري باسم",
+    "features": {
+      "accessAll": "وصول لجميع المتاجر",
+      "phoneWhatsapp": "أرقام الهاتف والواتساب",
+      "map": "الموقع على الخريطة",
+      "social": "صفحات التواصل الاجتماعي",
+      "search": "بحث متقدم",
+      "support": "دعم فني"
+    }
+  },
+  "login": {
+    "title": "دخول المشتركين",
+    "phonePlaceholder": "رقم الهاتف (مثال: 0550123456)",
+    "codePlaceholder": "رمز التحقق",
+    "sendCode": "إرسال رمز التحقق",
+    "verify": "تحقق",
+    "notSubscribed": "لست مشتركاً بعد؟",
+    "subscribeNow": "اشترك الآن — 10,000 دج مدى الحياة"
+  },
+  "nfc": {
+    "title": "بطاقات NFC",
+    "subtitle": "تقنية حديثة للوصول السريع لمتجرك",
+    "description": "بطاقة NFC الذكية - العميل يقترب هاتفه من البطاقة ← تفتح صفحة متجرك تلقائياً!",
+    "orderNow": "اطلب الآن"
+  },
+  "map": {
+    "title": "خريطة التجار",
+    "searchPlaceholder": "ابحث في الخريطة..."
+  },
+  "about": {
+    "title": "عن المنصة",
+    "vision": "رؤيتنا",
+    "visionText": "نؤمن بأن كل تاجر جزائري يستحق أن يكون مرئياً. دار التجار هي المنصة التي تربط بين التجار والزبائن بكل سهولة وشفافية.",
+    "featuresTitle": "ماذا نقدم",
+    "howItWorks": "كيف تعمل المنصة",
+    "plansTitle": "باقات الاشتراك",
+    "joinToday": "انضم إلينا اليوم"
+  },
+  "categories": {
+    "title": "التصنيفات",
+    "search": "بحث في التصنيفات...",
+    "browseAll": "تصفح الكل"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "close": "إغلاق",
+    "showMore": "عرض المزيد",
+    "showLess": "عرض أقل",
+    "free": "مجاني",
+    "dZD": "دج"
+  },
+  "lang": {
+    "ar": "العربية",
+    "fr": "Français"
+  }
+}

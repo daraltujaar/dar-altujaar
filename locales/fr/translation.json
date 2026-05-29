@@ -1,0 +1,174 @@
+{
+  "site": {
+    "name": "Dar Al-Tujar",
+    "slogan": "Annuaire des Commerçants d'Algérie",
+    "description": "Plateforme Dar Al-Tujar - Annuaire complet de tous les commerçants en Algérie"
+  },
+  "nav": {
+    "home": "Accueil",
+    "traders": "Commerçants",
+    "categories": "Catégories",
+    "register": "Inscription Commerçant",
+    "login": "Connexion Abonné",
+    "subscriptions": "Abonnements",
+    "nfc": "NFC",
+    "map": "Carte",
+    "about": "À propos",
+    "myStore": "Mon Magasin",
+    "admin": "Tableau de bord"
+  },
+  "home": {
+    "heroTitle": "Découvrez tous les magasins en Algérie",
+    "heroSubtitle": "Une plateforme complète qui regroupe tous les commerçants et services",
+    "searchPlaceholder": "Recherchez un magasin, commerçant ou service...",
+    "ctaTraders": "Parcourir les Commerçants",
+    "ctaRegister": "Inscrivez votre magasin gratuitement",
+    "featuresTitle": "Pourquoi Dar Al-Tujar ?",
+    "stats": {
+      "traders": "Commerçant Inscrit",
+      "wilayas": "Wilaya",
+      "categories": "Catégorie",
+      "users": "Abonné"
+    }
+  },
+  "traders": {
+    "title": "Liste des Commerçants",
+    "search": "Recherche",
+    "filterWilaya": "Wilaya",
+    "filterCategory": "Catégorie",
+    "allWilayas": "Toutes les Wilayas",
+    "allCategories": "Toutes les Catégories",
+    "sort": "Tri",
+    "sortNewest": "Plus récent",
+    "sortPopular": "Plus visité",
+    "sortRated": "Mieux noté",
+    "noResults": "Aucun résultat",
+    "contactProtected": "Coordonnées réservées aux abonnés",
+    "subscribeNow": "Abonnez-vous",
+    "socialProtected": "Réseaux sociaux protégés",
+    "subscribeToView": "Abonnez-vous pour voir Facebook, Instagram, TikTok et Telegram"
+  },
+  "trader": {
+    "detailTitle": "Détails du Magasin",
+    "info": "Informations",
+    "contact": "Coordonnées",
+    "social": "Réseaux Sociaux",
+    "reviews": "Avis",
+    "addReview": "Ajouter un avis",
+    "writeReview": "Écrivez votre avis...",
+    "submit": "Envoyer",
+    "protected": "Contenu protégé",
+    "loginToView": "Connectez-vous comme abonné pour voir les informations",
+    "related": "Magasins similaires",
+    "whatsapp": "WhatsApp",
+    "phone": "Téléphone",
+    "location": "Emplacement",
+    "category": "Catégorie",
+    "subcategory": "Sous-catégorie"
+  },
+  "register": {
+    "title": "Inscription Commerçant",
+    "subtitle": "Inscription 100% gratuite ! Remplissez les informations de votre magasin",
+    "storeName": "Nom du Magasin",
+    "ownerName": "Nom du Propriétaire",
+    "phone": "Téléphone",
+    "phone2": "Téléphone supplémentaire",
+    "whatsapp": "WhatsApp",
+    "address": "Adresse",
+    "wilaya": "Wilaya",
+    "category": "Catégorie Principale",
+    "subcategory": "Sous-catégorie",
+    "selectCategory": "Choisir la catégorie",
+    "selectSubcategory": "Choisir la sous-catégorie",
+    "description": "Description du magasin",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "telegram": "Telegram",
+    "mapsLink": "Lien Carte",
+    "logo": "Logo du magasin",
+    "storeImages": "Photos du magasin",
+    "submit": "Inscrire le magasin",
+    "success": "Inscription réussie !",
+    "successMsg": "Les informations de votre magasin ont été enregistrées. Nous vous contacterons via WhatsApp pour confirmer l'ajout.",
+    "required": "Obligatoire"
+  },
+  "subscriptions": {
+    "title": "Choisissez votre forfait",
+    "subtitle": "Accédez à la plateforme Dar Al-Tujar et contactez tous les commerçants",
+    "freeForTraders": "L'inscription des commerçants est totalement gratuite",
+    "monthly": "1 Mois",
+    "bimestriel": "2 Mois",
+    "trimestriel": "3 Mois",
+    "lifetime": "À Vie",
+    "monthlyPrice": "1,500 DA",
+    "bimestrielPrice": "2,500 DA",
+    "trimestrielPrice": "3,500 DA",
+    "lifetimePrice": "10,000 DA",
+    "subscribe": "S'abonner",
+    "paymentVia": "Paiement via BaridiMob ou CCP au nom de",
+    "features": {
+      "accessAll": "Accès à tous les magasins",
+      "phoneWhatsapp": "Numéros de téléphone et WhatsApp",
+      "map": "Emplacement sur la carte",
+      "social": "Réseaux sociaux",
+      "search": "Recherche avancée",
+      "support": "Support technique"
+    }
+  },
+  "login": {
+    "title": "Connexion Abonné",
+    "phonePlaceholder": "Numéro de téléphone (ex: 0550123456)",
+    "codePlaceholder": "Code de vérification",
+    "sendCode": "Envoyer le code",
+    "verify": "Vérifier",
+    "notSubscribed": "Pas encore abonné ?",
+    "subscribeNow": "Abonnez-vous — 10,000 DA à vie"
+  },
+  "nfc": {
+    "title": "Cartes NFC",
+    "subtitle": "Technologie moderne pour un accès rapide à votre magasin",
+    "description": "Carte NFC intelligente - Le client approche son téléphone de la carte → Votre page magasin s'ouvre automatiquement !",
+    "orderNow": "Commander"
+  },
+  "map": {
+    "title": "Carte des Commerçants",
+    "searchPlaceholder": "Rechercher sur la carte..."
+  },
+  "about": {
+    "title": "À propos",
+    "vision": "Notre Vision",
+    "visionText": "Nous croyons que chaque commerçant algérien mérite d'être visible. Dar Al-Tujar est la plateforme qui relie les commerçants et les clients avec facilité et transparence.",
+    "featuresTitle": "Ce que nous offrons",
+    "howItWorks": "Comment ça marche",
+    "plansTitle": "Forfaits d'abonnement",
+    "joinToday": "Rejoignez-nous aujourd'hui"
+  },
+  "categories": {
+    "title": "Catégories",
+    "search": "Rechercher dans les catégories...",
+    "browseAll": "Parcourir tout"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins",
+    "free": "Gratuit",
+    "dZD": "DA"
+  },
+  "lang": {
+    "ar": "العربية",
+    "fr": "Français"
+  }
+}
