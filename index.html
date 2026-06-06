@@ -90,17 +90,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Kufi+Arabic:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/index-B4yRRAjS.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-By0y_8L7.css">
+
+    <!-- ═══ FORCE CLEAR CACHE ═══ -->
+    <script>
+      (function() {
+        try {
+          var CURRENT = 'v8-2025';
+          var stored = localStorage.getItem('__dt_version');
+          if (stored === CURRENT) return;
+          // Save version FIRST
+          localStorage.setItem('__dt_version', CURRENT);
+          // Keep notifications & important data
+          var keepKeys = ['dt_notifications', 'dt_whatsapp_admin', 'dt_whatsapp_enabled', 'callmebot_apikey', 'dt_notif_types'];
+          var kept = {};
+          for (var i = 0; i < keepKeys.length; i++) {
+            var v = localStorage.getItem(keepKeys[i]);
+            if (v) kept[keepKeys[i]] = v;
+          }
+          // Unregister service workers
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(regs) {
+              var done = 0;
+              if (regs.length === 0) { restoreAndReload(); return; }
+              regs.forEach(function(reg) {
+                reg.unregister().then(function() { done++; if (done >= regs.length) restoreAndReload(); })
+                  .catch(function() { done++; if (done >= regs.length) restoreAndReload(); });
+              });
+            });
+          } else { restoreAndReload(); }
+          // Clear caches
+          if (window.caches) { caches.keys().then(function(names) { names.forEach(function(n) { caches.delete(n); }); }); }
+          function restoreAndReload() {
+            for (var key in kept) { localStorage.setItem(key, kept[key]); }
+            window.location.reload(true);
+          }
+        } catch(e) { /* ignore */ }
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-D1L3ngIk.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CNmVBcc0.css">
   </head>
   <body>
     <div id="root"></div>
     <script>
-      // Register Service Worker for PWA
+      // Unregister any old service workers (prevents cached chunks issues)
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          regs.forEach(function(reg) { reg.unregister(); });
         });
+        // Clear all caches
+        if (window.caches) { caches.keys().then(function(names) { names.forEach(function(n) { caches.delete(n); }); }); }
       }
     </script>
   </body>
